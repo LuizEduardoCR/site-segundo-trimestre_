@@ -1,0 +1,38 @@
+#quadrado{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation-name: mudaCor;
+    animation-duration: 4s;
+}
+
+@keyframes mudaCor {
+    0%{
+        background-color: blue;
+        height: 100px;
+    }
+    50%{
+
+    }
+    100%{
+        background-color: pink;
+        height: 100px;
+    }
+    
+}
+aside{
+    height: 200px;
+    border: 1px solid black;
+    animation-name: sumir;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sumir {
+    0%{
+        height: 200px;
+    }
+    100%{
+        height: 0;
+    }
+}
