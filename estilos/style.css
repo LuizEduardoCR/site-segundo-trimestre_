@@ -112,20 +112,30 @@ nav{
 }
 
 img{
-    width: 50%;
+    width: 200px;    
 }
 
+h1{
+    margin-left: 100px;
+    margin-right: 100px;
+    opacity: 20px;
+}
 
 p{
-    margin-top: 10px;
+    margin: 20px 50px 50px 50px;
+    text-align: left;
 }
 
+
 main {
-    margin-top: 15px;
+    margin-top: 35px;
     background: white;
     grid-area: m;
     text-align: center;
 }
+
+
+
 
 #aside1 {
     background: green;
@@ -147,6 +157,10 @@ footer {
     grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: 0vh 80vh 10vh;
     grid-template-areas: "a1 m a2"
+                         "a1 m a2"
+                         "a1 m a2"
+                         "a1 m a2"
+                         "a1 m a2"
                          "a1 m a2"
                          "f f f";
 }
