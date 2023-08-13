@@ -22,11 +22,11 @@ a:hover{
 
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background: black;
-    height: 10vh;
+    height: 8vh;
 }
 
 .nav-list{
@@ -114,39 +114,15 @@ nav{
 img{
     width: 50%;
 }
-
-
-p{
-    margin-top: 10px;
+.container{
+    position: relative;
 }
-
-main {
-    margin-top: 15px;
-    background: white;
-    grid-area: m;
-    text-align: center;
+.legenda{
+    color: white;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
 }
-
-#aside1 {
-    background: green;
-    grid-area: a1;
-}
-#aside2{
-    background: green;
-    grid-area: a2;
-}
-
-footer {
-    background: red;
-    grid-area: f;
-}
-
-
-.container {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 0vh 80vh 10vh;
-    grid-template-areas: "a1 m a2"
-                         "a1 m a2"
-                         "f f f";
+.legenda h1{
+    margin: 0;
 }
