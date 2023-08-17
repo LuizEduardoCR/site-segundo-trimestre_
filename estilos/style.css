@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic&display=swap');
 
 *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Carrois Gothic', sans-serif;
 }
 
 a{
@@ -32,7 +33,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
     background: black;
     height: 10vh;
     
@@ -145,9 +146,12 @@ main {
     background: white;
     grid-area: m;
     text-align: center;
+
 }
 
-
+img{
+    margin-top: 10px;
+}
 
 
 #aside1 {
@@ -218,4 +222,9 @@ footer {
 h3 > span {
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
+}
+
+#data > p {
+    margin: 0;
+    margin-left: 20px;
 }
