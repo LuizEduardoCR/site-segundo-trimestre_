@@ -139,6 +139,17 @@ p{
     text-align: left;
 }
 
+.paragrafo-esq{
+
+    display: flex;
+    align-items: center;
+    
+}
+
+.paragrafo-dir{
+    display: flex;
+    justify-content: space-between;
+}
 
 
 main {
@@ -149,10 +160,11 @@ main {
 
 }
 
-img{
-    margin-top: 10px;
-}
+.imgtext{
+    margin-right: 100px;
+    
 
+}
 
 #aside1 {
     background: green;
@@ -203,7 +215,7 @@ footer {
 
 #semi-titulo {
     font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Carrois Gothic', sans-serif;
     font-weight: 300;
 }
 
@@ -211,17 +223,20 @@ footer {
     grid-area: data-pub;
 }
 
+
+
+
 #autor {
     font-size: 14px;
     text-align: left;
     margin-left: 20px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Carrois Gothic', sans-serif;
     font-weight: bold;
 }
 
 h3 > span {
     font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Carrois Gothic', sans-serif;
 }
 
 #data > p {
