@@ -276,13 +276,14 @@ footer {
 #veja{
     display: flex;
     justify-content: space-around;
-    margin-left: 200px;
-    margin-right: 200px;
-    padding: 0;
+    margin-left: 135px;
+    margin-right: 135px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #mais{
-    width: 50px;
+    width: 100px;
 }
 h3 > span {
     font-size: 16px;
