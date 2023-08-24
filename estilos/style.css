@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic&display=swap');
-
+:root{
+    --fontes:'Carrois Gothic', sans-serif; 
+}
 *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: var(--fontes)
 }
 
 a{
@@ -21,6 +23,7 @@ a:hover{
     font-size:24px;
     text-transform: uppercase;
     letter-spacing: 4px;
+    margin-left: 10px ;
     
 }
 header{
@@ -33,10 +36,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
     background: black;
     height: 10vh;
-    
     width: 100%;
 }
 
@@ -129,32 +130,41 @@ h1{
     opacity: 20px;
 }
 
-p{
-    margin: 20px 50px 50px 50px;
-    text-align: left;
+#p{
+   margin-top: 20px;
+   margin-bottom: 40px;
+   margin-left: 200px;
+   margin-right: 200px;
+   text-align: left;
 }
 
 .paragrafo-esq{
-
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 200px;
+    margin-right: 0px;
     display: flex;
     align-items: center;
     
 }
 
-.paragrafo-dir{
-    display: flex;
-    justify-content: space-between;
-}
 
 #imgTexto{
     width: 400px;
-    margin-right: 50px ;
-    margin-left: 40px;
+    margin-right: 250px ;
+    margin-left: 50px;
+    margin-bottom: 20px;
 }
 
 #imgTitulo{
     width: 500px;
     margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#imgAd{
+    width: 200px;
 }
 
 main {
@@ -169,15 +179,32 @@ main {
 #aside1 {
     background: white;
     grid-area: a1;
+    
 }
+
+
 #aside2{
     background: white;
     grid-area: a2;
 }
 
+#aside1 >#imgAd{
+    margin-top: 900px;
+   margin-left: 100px;
+   margin-right: 100px;
+}
+
+#aside2 > #imgAd{
+    margin-top: 900px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+ }
+
 footer {
     background: red;
     grid-area: f;
+    
 }
 
 
@@ -192,6 +219,13 @@ footer {
     "a1 m a2"
     "a1 m a2"
     "a1 m a2"
+    "a1 m a2"
+    "a1 m a2"
+    "a1 m a2"
+    "a1 m a2"
+    "a1 m a2"
+    "a1 m a2"
+    "f f f"
     "f f f";
     margin-top: 10vh;
 }
@@ -199,8 +233,7 @@ footer {
 #section-header {
     display: grid;
     grid-template-areas:
-    "titulo titulo"
-    "data-pub data-pub";
+    "titulo titulo";
     grid-template-columns: 100%;
 }
 
@@ -222,12 +255,10 @@ footer {
     text-align: left;
 }
 
-#data-publicacao {
-    grid-area: data-pub;
+#data{
+    font-size: 14px;
+    text-align: left;
 }
-
-
-
 
 #autor {
     font-size: 14px;
@@ -237,6 +268,22 @@ footer {
     font-weight: bold;
 }
 
+#fim{
+    text-align: left;
+    margin-left: 200px;
+
+}
+#veja{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 0;
+}
+
+#mais{
+    width: 50px;
+}
 h3 > span {
     font-size: 16px;
     font-family: 'Carrois Gothic', sans-serif;
