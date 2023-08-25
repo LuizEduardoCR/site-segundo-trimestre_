@@ -176,6 +176,8 @@ main {
 }
 
 
+
+
 #aside1 {
     background: white;
     grid-area: a1;
@@ -201,8 +203,12 @@ main {
 
  }
 
+ #p_footer{
+    color: white;
+ }
+
 footer {
-    background: red;
+    background: black;
     grid-area: f;
     width: 100%;
     
@@ -286,7 +292,7 @@ footer {
 #input_group{
     display: flex;
     align-items: center;
-    background-color: black;
+    background-color: white;
     border-radius: 4px;
 }
 
@@ -300,7 +306,7 @@ footer {
 #input_group button{
     background-color: #7f37c9;
     border: none;
-    color: white;
+    color: black;
     padding: 0px, 1.25rem;
     font-size: 1.125rem;
     height: 100%;
@@ -316,10 +322,10 @@ footer {
 #footer_copyright{
     display: flex;
     justify-content: center;
-    background-color: black;
+    background-color: #111111;
     font-size: 0.9rem;
     padding: 1.5rem;
-    height: 100px;
+    color: white;
 }
 
 @media screen and (max-width:768px){
@@ -352,7 +358,6 @@ footer {
     "a1 m a2"
     "a1 m a2"
     "a1 m a2"
-    "f f f"
     "f f f";
     margin-top: 10vh;
 }
@@ -399,14 +404,6 @@ footer {
     text-align: left;
     margin-left: 200px;
 
-}
-#veja{
-    display: flex;
-    justify-content: space-around;
-    margin-left: 135px;
-    margin-right: 135px;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 #mais{
